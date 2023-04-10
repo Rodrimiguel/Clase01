@@ -1,0 +1,37 @@
+﻿@page
+@model AutomovilesModel
+@{
+
+    var ListCars = new List<string>();
+
+    ListCars.Add("Mitsubhisi Evolution");
+    ListCars.Add("Honda Civic");
+    ListCars.Add("Toyota Corolla");
+    ListCars.Add("Nissan Sentra");
+    ListCars.Add("Subaru Impreza");
+    
+    
+    @* var everything = " ";
+    foreach (var item in ListCars)
+    {
+        everything += item;
+    } *@
+
+}
+
+@* <h1>@everything</h1> *@
+
+
+
+<h1>List-Cars</h1>
+
+<ol>
+    @foreach (var item in ListCars)
+    {
+        <li>@item</li>
+    }
+</ol>
+
+
+<h3>Contacto</h3>
+<h4>rodrigomfoggia84@@gmail.com</h4>
