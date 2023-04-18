@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\Class01RP\\Class01RP.csproj",
+      "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\Proyects\\Class01RP\\Class01RP.csproj",
       "projectName": "Class01RP",
-      "projectPath": "C:\\Users\\Rodrigo\\Desktop\\Class01RP\\Class01RP.csproj",
+      "projectPath": "C:\\Users\\Rodrigo\\Desktop\\Proyects\\Class01RP\\Class01RP.csproj",
       "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\Desktop\\Class01RP\\obj\\",
+      "outputPath": "C:\\Users\\Rodrigo\\Desktop\\Proyects\\Class01RP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -2,20 +2,27 @@
 @model AutomovilesModel
 @{
 
-    var ListCars = new List<string>();
+    var ListCars = new List<string>(); // CREAMOS UNA LISTA DE ALUMNOS
 
     ListCars.Add("Mitsubhisi Evolution");
     ListCars.Add("Honda Civic");
     ListCars.Add("Toyota Corolla");
     ListCars.Add("Nissan Sentra");
     ListCars.Add("Subaru Impreza");
+
+    // Agregamos automóviles a lista.
+    // direccion entorno ejecucion de archivos (te orienta en que carpeta esta el archivos)
+    // el foreach puede ser aplicacdo tanto en razor como en html.
     
     
+    // RECORREMOS UNA LISTA DE ALUMNOS. EN ESTE CASO SE VAN A IMPRIMIR UNO AL LADO DEL OTRO.
     @* var everything = " ";
     foreach (var item in ListCars)
     {
         everything += item;
     } *@
+
+    // ESTE EJEMPLO DE FOREACH ESTA DENTRO DE UN BLOQUE DE CODIGOS.
 
 }
 
@@ -31,6 +38,8 @@
         <li>@item</li>
     }
 </ol>
+
+<!--{{{{foreach}}}}Recorremos tantas veces haya elementos en la lista  // ESTE FOREACH DENTRO DE HTML-->
 
 
 <h3>Contacto</h3>
